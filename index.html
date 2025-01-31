@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- header section starts -->
+
+    <header>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo">iLOOKS<span>.</span></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#product">product</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <a href="javascript:void(0);" class="fas fa-search" id="search-icon"></a>
+        <div class="search-box" id="search-box">
+            <input type="text" placeholder="Search..." id="search-input" onkeydown="searchProduct(event)">
+            <button type="submit">Cari</button>
+        </div>
+        
+        <p id="no-product-message" style="display: none;">Barang tidak tersedia</p>
+    
+        <a href="#shop" class="fas fa-shopping-cart"></a>
+        <a href="#user" class="fas fa-user"></a>
+    </div>
+
+
+    </header>
+
+    <!-- header section ends -->
+    
+    <!-- home section starts -->
+
+    <body>
+        <section class="home" id="home">
+            <div class="content">
+                <h3>iLOOKS</h3>
+                <span>Boots Stylish</span>
+                <p>Sepatu boots adalah jenis alas kaki yang memiliki ciri khas desain tinggi dan menutupi sebagian besar pergelangan kaki atau bahkan lebih tinggi, kadang-kadang mencapai bagian bawah betis. Mayoritas sepatu bot menutupi bagian telapak kaki sampai ke bagian mata kaki. Sebagian sepatu boots juga menutup bagian betis dan bahkan ada juga yang sampai ke pinggang. Desain sepatu boots ini memberikan perlindungan ekstra pada kaki, pergelangan kaki, dan kaki bagian bawah.
+                </p>
+                <a href="#product" class="btn">Shop Now</a>
+
+            </div>
+        </section>
+    </body>
+    
+
+    <!-- home section ends -->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span> about </span> us </h1>
+
+        <div class="row">
+            
+            <div class="video-container">
+                <video src="images/firstclip.mp4" loop autoplay muted></video>
+                <h3>best boots seller</h3>
+            </div>
+
+            <div class="content">
+                <h3>kenapa pilih ini?</h3>
+                <p>Sepatu boots adalah jenis alas kaki yang memiliki ciri khas desain tinggi dan menutupi sebagian besar pergelangan kaki atau bahkan lebih tinggi, kadang-kadang mencapai bagian bawah betis. Mayoritas sepatu bot menutupi bagian telapak kaki sampai ke bagian mata kaki. Sebagian sepatu boots juga menutup bagian betis dan bahkan ada juga yang sampai ke pinggang. Desain sepatu boots ini memberikan perlindungan ekstra pada kaki, pergelangan kaki, dan kaki bagian bawah.
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure facilis magni voluptate perferendis sequi tempora animi, quibusdam sint nulla sunt quaerat. Fugiat hic repudiandae impedit, odio architecto labore ex?</p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+        </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- icons section starts -->
+
+    <section class="icons-container">
+        
+        <div class="icons">
+            <img src="images/fast-delivery.png" alt="">
+            <div class="info">
+                <h3>free delivery</h3>
+                <span>on all order</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="images/money-bag.png" alt="">
+            <div class="info">
+                <h3>10 days returm</h3>
+                <span>moneyback guarantee</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="images/gift-card.png" alt="">
+            <div class="info">
+                <h3>offer & gift</h3>
+                <span>on all order</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="images/cashier.png" alt="">
+            <div class="info">
+                <h3>secure payment</h3>
+                <span>protected by samco</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- icons section ends -->
+
+    <!-- products section starts-->
+
+    <section class="product" id="product">
+        
+        <h1 class="heading"> Our <span>product</span></h1>
+        
+        <div class="box-container">
+            <a href="boots-blackman.html">
+            <div class="box" id="Boots Black Man">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="images/500.png" alt="">
+                </a>
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="cart-btn">Checkout</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                
+                <div class="content">
+                    <h3>Boots Black Man</h3>
+                    <div class="price"> Rp 2.000.000 <span>Rp2.499.000</span></div>
+                </div>
+            </div>
+
+            <a href="bootsblue.html">
+            <div class="box" id="Boots Blue">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="images/hiking.jpg" alt="">
+                </a>
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="cart-btn">Checkout</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                
+                <div class="content">
+                    <h3>Boots Blue</h3>
+                    <div class="price"> Rp 1.899.000 <span>Rp2.499.000</span></div>
+                </div>
+            </div>
+
+            <a href="boots-white.html">
+            <div class="box" id="Boots White">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="images/hiking.jpg" alt="">
+                </a>
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="cart-btn">Checkout</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                
+                <div class="content">
+                    <h3>Boots white</h3>
+                    <div class="price"> Rp 2.299.000 <span>Rp2.499.000</span></div>
+                </div>
+            </div>
+
+            <a href="boots-boboboi.html">
+            <div class="box" id="Boots Boboboi">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="images/hiking.jpg" alt="">
+                    </a>
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="cart-btn">Checkout</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                
+                <div class="content">
+                    <h3>Boots Boboboi</h3>
+                    <div class="price"> Rp 1.750.000 <span>Rp2.499.000</span></div>
+                </div>
+            </div>
+
+            <a href="boots-bujang.html">
+            <div class="box" id="Boots Bujang">
+                <span class="discount">-3%</span>
+                <div class="image">
+                    <img src="images/hiking.jpg" alt="">
+                    </a>
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="cart-btn">Checkout</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                
+                <div class="content">
+                    <h3>Boots Bujang</h3>
+                    <div class="price"> Rp 2.450.000 <span>Rp2.499.000</span></div>
+                </div>
+            </div>
+
+            <a href="boots-banget.html">
+            <div class="box" id="Boots Banget">
+                <span class="discount">-8%</span>
+                <div class="image">
+                    <img src="images/hiking.jpg" alt="">
+                    </a>
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="cart-btn">Checkout</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                
+                <div class="content">
+                    <h3>Boots Banget</h3>
+                    <div class="price"> Rp 2.450.000 <span>Rp2.499.000</span></div>
+                </div>
+            </div>
+
+            <a href="boots-aja.html">
+            <div class="box" id="Boots Aja">
+                <span class="discount">-70%</span>
+                <div class="image">
+                    <img src="images/hiking.jpg" alt="">
+                    </a>
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="cart-btn">Checkout</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                
+                <div class="content">
+                    <h3>Boots Aja</h3>
+                    <div class="price"> Rp 2.450.000 <span>Rp2.499.000</span></div>
+                </div>
+            </div>
+
+            <a href="boots-blaky.html">
+            <div class="box" id="Boots Blaky">
+                <span class="discount">-45%</span>
+                <div class="image">
+                    <img src="images/hiking.jpg" alt="">
+                    </a>
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="cart-btn">Checkout</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                
+                <div class="content">
+                    <h3>Boots Blaky</h3>
+                    <div class="price"> Rp 2.450.000 <span>Rp2.499.000</span></div>
+                </div>
+            </div>
+
+            <a href="boots-bejo.html">
+            <div class="box">
+                <span class="discount">-1%</span>
+                <div class="image">
+                    <img src="images/hiking.jpg" alt="">
+                    </a>
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="cart-btn">Checkout</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                
+                <div class="content">
+                    <h3>Boots Bejo</h3>
+                    <div class="price"> Rp 2.450.000 <span>Rp2.499.000</span></div>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+    <!-- products section ends-->
+
+
+    <!-- review section starts-->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer <span>review</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vel esse odit, officia aperiam dolores in! Optio sint non iusto dolores quaerat omnis facere. Odio provident in error perspiciatis maiores!</p>
+                <div class="user">
+                    <img src="images/hiking.jpg" alt="">
+                    <div class="user-info">
+                        <h3>nrg</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+            
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vel esse odit, officia aperiam dolores in! Optio sint non iusto dolores quaerat omnis facere. Odio provident in error perspiciatis maiores!</p>
+                <div class="user">
+                    <img src="images/hiking.jpg" alt="">
+                    <div class="user-info">
+                        <h3>nrg</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vel esse odit, officia aperiam dolores in! Optio sint non iusto dolores quaerat omnis facere. Odio provident in error perspiciatis maiores!</p>
+                <div class="user">
+                    <img src="images/hiking.jpg" alt="">
+                    <div class="user-info">
+                        <h3>nrg</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+    </div>
+
+    </section>
+    <!-- review section ends-->
+
+
+    <!-- contact section starts-->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span> contact </span> us </h1>
+
+        <div class="row">
+        
+    <form action="">
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="number" placeholder="number" class="box">
+        <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+    <div class="image">
+        <img src="images/Desain tanpa judul.png" alt="">
+    </div>
+
+</div>
+
+    </section>
+
+    <!-- contact section ends-->
+
+    <!-- footer section starts-->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#product">product</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </div>
+
+             <div class="box">
+                <h3>extra links</h3>
+                <a href="#user">my account</a>
+                <a href="#shop">my order</a>
+                <a href="#like">my favorite</a>
+            </div>
+       
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">Tangerang</a>
+                <a href="#">Jakarta</a>
+                <a href="#">Bandung</a>
+                <a href="#">Bogor</a>
+                <a href="#">Jabodetabek</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+62 856 9202 0106</a>
+                <a href="#">ilooksboots@gmail.com</a>
+                <a href="#">tangerang, indonesia - 150014</a>
+                <img src="images/ovo.png" alt="" width="250" height="100">
+            </div>
+       
+        </div>
+
+        <div class="credit"> created by <span> MRDILS. </span> | all rights reserved </div>
+
+    </section>
+    <!-- footer section ends-->
+
+    <script src="js/style.js"></script>
+
+    
+
+    
+</body>
+</html>
